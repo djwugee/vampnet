@@ -26,9 +26,9 @@ setup(
     license="MIT",
     packages=find_packages(),
     install_requires=[
-        "torch==2.4.1",
+        "torch>=2.4.1",
         "argbind>=0.3.2",
-        "numpy==1.23",
+        "numpy>=1.26.0",
         "wavebeat @ git+https://github.com/hugofloresgarcia/wavebeat",
         "lac @ git+https://github.com/hugofloresgarcia/lac.git",
         "descript-audiotools @ git+https://github.com/hugofloresgarcia/audiotools.git",
@@ -36,7 +36,6 @@ setup(
         "loralib",
         "torch_pitch_shift",
         "plotly",
-        "pydantic==2.10.6",
-        "spaces",
+        "pydantic>=2.10.6",
     ],
 )

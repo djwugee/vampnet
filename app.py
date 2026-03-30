@@ -1,4 +1,11 @@
-import spaces
+try:
+    import spaces
+except ImportError:
+    class spaces:
+        @staticmethod
+        def GPU(func):
+            return func
+
 from pathlib import Path
 import yaml
 import time
