@@ -1,6 +1,7 @@
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.2.2+cpu
+torchaudio==2.2.2+cpu
 streamlit==1.28.2
-torch>=2.0.0
-torchaudio>=2.0.0
 numpy<1.24.0
 pytest>=7.4.0
 argbind>=0.3.7
