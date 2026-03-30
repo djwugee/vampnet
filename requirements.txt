@@ -4,7 +4,8 @@ numpy>=1.23.0
 loralib
 wavebeat @ git+https://github.com/hugofloresgarcia/wavebeat
 lac @ git+https://github.com/hugofloresgarcia/lac.git
-descript-audiotools @ git+https://github.com/hugofloresgarcia/audioyharp @ git+https://github.com/audacitorch/pyharp.git@develop
+descript-audiotools @ git+https://github.com/hugofloresgarcia/audiotools.git
+pyharp @ git+https://github.com/audacitorch/pyharp.git@develop
 torch_pitch_shift
 gradio
 pydantic>=2.10.6

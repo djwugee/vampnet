@@ -36,7 +36,7 @@ setup(
         "loralib",
         "torch_pitch_shift",
         "plotly",
-        "pydantic==2.10.6",
+        "pydantic>=2.10.6",
         "spaces",
     ],
 )
